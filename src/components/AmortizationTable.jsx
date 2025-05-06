@@ -1,6 +1,6 @@
 import React from 'react';
-import { useCurrency } from '../context/CurrencyContext';
-import { useExchangeRate } from '../hooks/useExchangeRate';
+import { useCurrency } from '../context/CurrencyContext.jsx';
+import { useExchangeRate } from '../hooks/useExchangeRate.js';
 import { Table, TableHead, TableBody, TableRow, TableCell, Typography } from '@mui/material';
 
 const AmortizationTable = () => {

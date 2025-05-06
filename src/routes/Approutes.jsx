@@ -1,9 +1,9 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from '../pages/Home'
-import ExchangeRate from '../pages/ExchangeRate'
-import About from '../pages/About'
-import NotFound from '../pages/NotFound'
+import Home from '../pages/Home.jsx'
+import ExchangeRate from '../pages/ExchangeRate.jsx'
+import About from '../pages/About.jsx'
+import NotFound from '../pages/NotFound.jsx'
 
 function Approutes() {
   return (

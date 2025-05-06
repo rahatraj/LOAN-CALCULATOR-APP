@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, TextField, Button } from '@mui/material';
-import { useCurrency } from '../context/CurrencyContext';
-import { useEmiCalculator } from '../hooks/useEmiCalculator';
+import { useCurrency } from '../context/CurrencyContext.jsx';
+import { useEmiCalculator } from '../hooks/useEmiCalculator.js';
 
 const LoanCalculator = ({ setShowTable }) => {
   const { state, dispatch } = useCurrency();

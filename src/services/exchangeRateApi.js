@@ -1,5 +1,4 @@
 import axios from 'axios';
-import Error from '../components/Error';
 
 const API_KEY = import.meta.env.VITE_EXCHANGE_API_KEY;
 

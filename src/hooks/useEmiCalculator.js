@@ -1,4 +1,4 @@
-import { useCurrency } from "../context/CurrencyContext";
+import { useCurrency } from "../context/CurrencyContext.jsx";
 
 export const useEmiCalculator = () => {
     const { state, dispatch } = useCurrency();

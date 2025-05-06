@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Button, FormControl, InputLabel, Select, MenuItem, Box, Typography } from '@mui/material';
-import EmiTable from './AmortizationTable';
-import { useCurrency } from '../context/CurrencyContext';
-import AmortizationTable from './AmortizationTable';
+import { useCurrency } from '../context/CurrencyContext.jsx';
+import AmortizationTable from './AmortizationTable.jsx';
 
 function MonthlyAmortization({ setShowTable }) {
   const currencyArray = ['USD', 'EUR', 'INR', 'GBP', 'JPY', 'AUD', 'CAD'];

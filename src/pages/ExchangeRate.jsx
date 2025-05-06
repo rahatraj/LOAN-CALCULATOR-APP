@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import EMIConversionTable from '../components/EmiConversionTable';
-import { useCurrency } from '../context/CurrencyContext';
-import { getExchangeRate } from '../services/exchangeRateApi';
+import EMIConversionTable from '../components/EMIConversionTable.jsx';
+import { useCurrency } from '../context/CurrencyContext.jsx';
+import { getExchangeRate } from '../services/exchangeRateApi.js';
 import { Alert, Box, CircularProgress, Typography } from '@mui/material';
-import Error from '../components/Error';
+import Error from '../components/Error.jsx';
 
 function ExchangeRate() {
   const { state,dispatch } = useCurrency();

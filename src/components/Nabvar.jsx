@@ -15,7 +15,7 @@ import {
   Divider,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { useThemeMode } from '../context/ThemeContext';
+import { useThemeMode } from '../context/ThemeContext.jsx';
 import { Link } from 'react-router-dom';
 
 const navLinks = [

@@ -1,7 +1,7 @@
 // hooks/useExchangeRate.js
 import { useEffect, useState } from 'react';
-import { useCurrency } from '../context/CurrencyContext';
-import { getExchangeRate } from '../services/exchangeRateApi';
+import { useCurrency } from '../context/CurrencyContext.jsx';
+import { getExchangeRate } from '../services/exchangeRateApi.js';
 
 export const useExchangeRate = () => {
   const { state } = useCurrency();

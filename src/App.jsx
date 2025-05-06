@@ -2,7 +2,7 @@
 import React from 'react';
 import {Container, Typography } from '@mui/material';
 import Navbar from './components/Nabvar';
-import Approutes from './routes/Approutes';
+import Approutes from './routes/Approutes.jsx';
 
 function App() {
 

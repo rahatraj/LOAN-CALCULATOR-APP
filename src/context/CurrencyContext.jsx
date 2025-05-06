@@ -1,5 +1,5 @@
 import { createContext, useContext, useReducer } from 'react';
-import { currencyReducer, initialState } from '../Reducers/currencyReducers';
+import { currencyReducer, initialState } from '../Reducers/currencyReducers.js';
 
 const CurrencyContext = createContext();
 

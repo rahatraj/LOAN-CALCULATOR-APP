@@ -13,6 +13,9 @@ function Approutes() {
             <Route path="/exchangerate" element={<ExchangeRate />}/>
             <Route path="/about" element={<About />}/>
             <Route path="/error" element={<NotFound />}/>
+
+            {/* for unmatched routes */}
+            <Route path='*' element={<NotFound />} />
         </Routes>
     </>
   )

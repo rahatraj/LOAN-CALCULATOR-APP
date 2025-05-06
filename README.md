@@ -46,6 +46,46 @@ npm run dev
 
 Then visit: http://localhost:5173
 
+## Live Demo
+View Live Application
+https://loanemicalculate.netlify.app
+
+## Deployment with Netlify
+
+To deploy your Vite + React app on Netlify, follow these steps:
+
+1. Build the Project
+npm run build
+
+2. Create a _redirects File
+In the public/ directory, create a file named _redirects with the following content:
+
+/*    /index.html   200
+
+This ensures React Router handles routing correctly on Netlify.
+
+3. Push to GitHub
+Make sure the latest changes (including the _redirects file) are committed and pushed.
+
+git add .
+git commit -m "Add Netlify redirects for SPA routing"
+git push origin main
+
+4. Deploy on Netlify
+Go to https://app.netlify.com/
+
+Click "Add new site" → "Import from Git"
+
+Connect your GitHub repo
+
+Set build command as: npm run build
+
+Set publish directory as: dist/
+
+Add your environment variable VITE_EXCHANGE_API_KEY under Site settings > Environment
+
+Once deployed, your site will be live with correct routing support!
+
 ## Project Structure
 
 src/

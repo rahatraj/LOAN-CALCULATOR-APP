@@ -35,12 +35,12 @@ function About(){
           <Typography variant="body1" sx={{ mt: 1 }}>
              Live App on Netlify:{' '}
             <Link
-              href="https://your-app-name.netlify.app"
+              href="https://loanemicalculate.netlify.app"
               target="_blank"
               rel="noopener"
               underline="hover"
             >
-              https://your-app-name.netlify.app
+              https://loanemicalculate.netlify.app
             </Link>
           </Typography>
         </Box>
